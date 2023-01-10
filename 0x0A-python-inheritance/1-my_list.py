@@ -1,12 +1,15 @@
 #!/usr/bin/python3
-"""first go at inheritance"""
+"""
+contains the MyList class
+"""
 
 
 class MyList(list):
-    """access methods of list class"""
+    """a subclass of list"""
     def __init__(self):
+        """initializes the object"""
         super().__init__()
 
     def print_sorted(self):
-        """prints sorted list"""
+        """prints the sorted list"""
         print(sorted(self))
