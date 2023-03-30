@@ -1,3 +1,3 @@
 #!/bin/bash
-# Takes a URL, sends a GET request to the URL, and displays body of the response
-curl -Lsf "$1
+# Script that shows the response body redirecting /route_1
+curl -Ls "$1"
